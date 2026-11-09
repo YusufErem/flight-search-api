@@ -3,7 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YusufErem/flight-search-api/actions/workflows/tests.yml"><img src="https://github.com/YusufErem/flight-search-api/actions/workflows/tests.yml/badge.svg" alt="tests"></a>
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white" alt="Python 3.12">
   <img src="https://img.shields.io/badge/Django-5.1-092E20?logo=django&logoColor=white" alt="Django 5.1">
   <img src="https://img.shields.io/badge/DRF-3.15-A30000" alt="Django REST Framework 3.15">
@@ -32,7 +31,7 @@ right after cloning.
 | 🛡️ **Flight rules** | A flight cannot depart and arrive at the same airport, and it must land after it takes off (also on partial updates). |
 | 🔐 **JWT auth** | Register and log in with e-mail and password; searching is public, writing needs a token. |
 | 🌙 **Nightly feed** | A Celery beat job (Redis broker) adds 10 new flights at midnight — a mock schedule feed, no external API. |
-| 📘 **Docs and tests** | Swagger UI at `/swagger/`, ReDoc at `/redoc/`; 6 API tests run on every push (GitHub Actions). |
+| 📘 **Docs and tests** | Swagger UI at `/swagger/`, ReDoc at `/redoc/`; 6 API tests and a GitHub Actions workflow. |
 
 ## 🗺️ Search in one request
 
@@ -157,7 +156,7 @@ cd FlightSearchApi && python manage.py test flight_info -v 2
 ```
 
 Six tests cover route / date / fare search, bad search parameters, the token requirement for writes, the flight rules,
-airport lookup and the nightly job. GitHub Actions runs them on every push.
+airport lookup and the nightly job. The same checks are in `.github/workflows/tests.yml` (run from the Actions tab).
 
 ## 🛣️ Roadmap
 
@@ -165,7 +164,8 @@ airport lookup and the nightly job. GitHub Actions runs them on every push.
 - [x] Flight search by route, date and fare
 - [x] JWT-protected writes and flight rules
 - [x] Nightly Celery beat job (mock feed)
-- [x] API tests and GitHub Actions
+- [x] API tests
+- [ ] Run the tests automatically on every push (GitHub Actions)
 - [ ] English field names behind a versioned `/api/v2/`
 - [ ] Pagination and ordering by fare
 - [ ] Docker Compose for PostgreSQL, Redis and the Celery processes
