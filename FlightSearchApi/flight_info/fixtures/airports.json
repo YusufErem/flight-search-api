@@ -1,0 +1,82 @@
+[
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 1,
+    "fields": {
+      "sehir": "Istanbul",
+      "code": "IST"
+    }
+  },
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 2,
+    "fields": {
+      "sehir": "Istanbul Sabiha Gökçen",
+      "code": "SAW"
+    }
+  },
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 3,
+    "fields": {
+      "sehir": "Ankara Esenboğa",
+      "code": "ESB"
+    }
+  },
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 4,
+    "fields": {
+      "sehir": "Antalya",
+      "code": "AYT"
+    }
+  },
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 5,
+    "fields": {
+      "sehir": "Izmir Adnan Menderes",
+      "code": "ADB"
+    }
+  },
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 6,
+    "fields": {
+      "sehir": "Dalaman",
+      "code": "DLM"
+    }
+  },
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 7,
+    "fields": {
+      "sehir": "Bodrum-Milas",
+      "code": "BJV"
+    }
+  },
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 8,
+    "fields": {
+      "sehir": "Trabzon",
+      "code": "TZX"
+    }
+  },
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 9,
+    "fields": {
+      "sehir": "Gaziantep",
+      "code": "GZT"
+    }
+  },
+  {
+    "model": "flight_info.havaalanlari",
+    "pk": 10,
+    "fields": {
+      "sehir": "Kayseri",
+      "code": "ASR"
+    }
+  }
+]

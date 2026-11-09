@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Flight Search API">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071a33"/><stop offset="1" stop-color="#0f3a6b"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7cc4ff" stop-opacity="0.9"/><stop offset="1" stop-color="#7cc4ff" stop-opacity="0"/></radialGradient></defs>
+<rect width="1280" height="400" rx="18" fill="url(#bg)"/>
+<line x1="690" y1="40" x2="690" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="756" y1="40" x2="756" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="822" y1="40" x2="822" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="888" y1="40" x2="888" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="954" y1="40" x2="954" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="1020" y1="40" x2="1020" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="1086" y1="40" x2="1086" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="1152" y1="40" x2="1152" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="1218" y1="40" x2="1218" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="1284" y1="40" x2="1284" y2="370" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="660" y1="380" x2="1250" y2="380" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="660" y1="330" x2="1250" y2="330" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="660" y1="280" x2="1250" y2="280" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="660" y1="230" x2="1250" y2="230" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="660" y1="180" x2="1250" y2="180" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="660" y1="130" x2="1250" y2="130" stroke="#ffffff" stroke-opacity="0.05"/>
+<line x1="660" y1="80" x2="1250" y2="80" stroke="#ffffff" stroke-opacity="0.05"/>
+<path d="M780.8,117.0 Q863.1,114.5 920.7,173.5" fill="none" stroke="#7cc4ff" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="5 6"/>
+<path d="M780.8,117.0 Q862.5,211.1 848.4,335.0" fill="none" stroke="#7cc4ff" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="5 6"/>
+<path d="M780.8,117.0 Q721.8,179.7 728.3,265.5" fill="none" stroke="#7cc4ff" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="5 6"/>
+<path d="M780.8,117.0 Q965.8,43.3 1145.1,130.0" fill="none" stroke="#7cc4ff" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="5 6"/>
+<path d="M780.8,117.0 Q972.2,161.4 1068.8,332.5" fill="none" stroke="#7cc4ff" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="5 6"/>
+<path d="M780.8,117.0 Q831.5,230.5 782.1,344.5" fill="none" stroke="#7cc4ff" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="5 6"/>
+<path d="M799.2,135.0 Q924.8,143.3 1003.5,241.5" fill="none" stroke="#7cc4ff" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="5 6"/>
+<path d="M920.7,173.5 Q1023.3,102.4 1145.1,130.0" fill="none" stroke="#7cc4ff" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="5 6"/>
+<path d="M799.2,135.0 Q731.9,214.3 744.8,317.5" fill="none" stroke="#7cc4ff" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="5 6"/>
+<circle cx="780.8" cy="117.0" r="14" fill="url(#glow)"/>
+<circle cx="780.8" cy="117.0" r="4" fill="#ffffff"/>
+<text x="790.8" y="108.0" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="start">IST</text>
+<circle cx="799.2" cy="135.0" r="14" fill="url(#glow)"/>
+<circle cx="799.2" cy="135.0" r="4" fill="#ffffff"/>
+<text x="809.2" y="151.0" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="start">SAW</text>
+<circle cx="920.7" cy="173.5" r="14" fill="url(#glow)"/>
+<circle cx="920.7" cy="173.5" r="4" fill="#ffffff"/>
+<text x="930.7" y="164.5" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="start">ESB</text>
+<circle cx="848.4" cy="335.0" r="9" fill="url(#glow)"/>
+<circle cx="848.4" cy="335.0" r="3" fill="#ffffff"/>
+<text x="858.4" y="326.0" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="start">AYT</text>
+<circle cx="728.3" cy="265.5" r="9" fill="url(#glow)"/>
+<circle cx="728.3" cy="265.5" r="3" fill="#ffffff"/>
+<text x="738.3" y="256.5" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="start">ADB</text>
+<circle cx="782.1" cy="344.5" r="9" fill="url(#glow)"/>
+<circle cx="782.1" cy="344.5" r="3" fill="#ffffff"/>
+<text x="792.1" y="335.5" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="start">DLM</text>
+<circle cx="744.8" cy="317.5" r="9" fill="url(#glow)"/>
+<circle cx="744.8" cy="317.5" r="3" fill="#ffffff"/>
+<text x="734.8" y="321.5" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="end">BJV</text>
+<circle cx="1145.1" cy="130.0" r="9" fill="url(#glow)"/>
+<circle cx="1145.1" cy="130.0" r="3" fill="#ffffff"/>
+<text x="1155.1" y="121.0" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="start">TZX</text>
+<circle cx="1068.8" cy="332.5" r="9" fill="url(#glow)"/>
+<circle cx="1068.8" cy="332.5" r="3" fill="#ffffff"/>
+<text x="1078.8" y="323.5" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="start">GZT</text>
+<circle cx="1003.5" cy="241.5" r="9" fill="url(#glow)"/>
+<circle cx="1003.5" cy="241.5" r="3" fill="#ffffff"/>
+<text x="1013.5" y="232.5" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#cfe6ff" text-anchor="start">ASR</text>
+<g transform="translate(1008.0,87.3) rotate(8.1) scale(1.5)"><path d="M-16,-2.2 L5,-2.2 L13,-1.2 Q17,0 13,1.2 L5,2.2 L-16,2.2 Z M-1,-2 L-9,-15 L-4.5,-15 L7,-2 Z M-1,2 L-9,15 L-4.5,15 L7,2 Z M-14,-2 L-19,-8 L-16,-8 L-10,-2 Z M-14,2 L-19,8 L-16,8 L-10,2 Z" fill="#ffffff"/></g>
+<text x="60" y="78" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="3" fill="#7cc4ff" font-weight="600">AVIATION BACKEND · DJANGO REST FRAMEWORK</text>
+<text x="58" y="140" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="58" font-weight="700" fill="#ffffff">Flight Search API</text>
+<text x="60" y="176" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="19" fill="#cfe6ff">Search flights by route, date and price.</text>
+<text x="60" y="202" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="19" fill="#cfe6ff">JWT auth · nightly Celery feed · Swagger docs</text>
+<rect x="60" y="228" width="520" height="136" rx="10" fill="#020b17" stroke="#ffb300" stroke-opacity="0.35"/>
+<text x="78" y="254" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="2" fill="#ffb300" font-weight="700">DEPARTURES</text>
+<text x="562" y="254" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#ffb300" fill-opacity="0.7" text-anchor="end">GET /api/ucuslar/?from=IST</text>
+<text x="78" y="280" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffb300" fill-opacity="0.55">FROM</text>
+<text x="170" y="280" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffb300" fill-opacity="0.55">TO</text>
+<text x="250" y="280" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffb300" fill-opacity="0.55">DEP</text>
+<text x="350" y="280" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffb300" fill-opacity="0.55">ARR</text>
+<text x="460" y="280" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffb300" fill-opacity="0.55">FARE</text>
+<text x="78" y="306" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">IST</text>
+<text x="170" y="306" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">ESB</text>
+<text x="250" y="306" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">09:00</text>
+<text x="350" y="306" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">10:00</text>
+<text x="460" y="306" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">450.00</text>
+<text x="78" y="328" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">IST</text>
+<text x="170" y="328" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">AYT</text>
+<text x="250" y="328" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">09:00</text>
+<text x="350" y="328" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">10:20</text>
+<text x="460" y="328" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">900.00</text>
+<text x="78" y="350" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">IST</text>
+<text x="170" y="350" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">TZX</text>
+<text x="250" y="350" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">13:45</text>
+<text x="350" y="350" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">15:40</text>
+<text x="460" y="350" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#ffd166">620.00</text>
+</svg>
