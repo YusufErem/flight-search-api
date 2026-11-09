@@ -11,7 +11,12 @@
   <img src="https://img.shields.io/badge/Celery%20%2B%20Redis-nightly%20job-37814A?logo=celery&logoColor=white" alt="Celery and Redis">
   <img src="https://img.shields.io/badge/Auth-JWT-000000?logo=jsonwebtokens&logoColor=white" alt="JWT">
   <img src="https://img.shields.io/badge/Docs-Swagger-85EA2D?logo=swagger&logoColor=black" alt="Swagger">
+  <img src="https://img.shields.io/badge/status-work%20in%20progress-orange" alt="Status: work in progress">
 </p>
+
+> [!NOTE]
+> **Work in progress.** The API runs and its tests pass, but the project is not finished yet: English field names,
+> pagination, Docker Compose and a real schedule feed are still open. See the [roadmap](#%EF%B8%8F-roadmap).
 
 A REST API for an airline-style flight search. It stores **airports** and **flights**, lets anyone **search flights by
 route, date and fare**, protects every write with **JWT**, adds new flights every night with a **Celery beat** job and
@@ -154,9 +159,14 @@ cd FlightSearchApi && python manage.py test flight_info -v 2
 Six tests cover route / date / fare search, bad search parameters, the token requirement for writes, the flight rules,
 airport lookup and the nightly job. GitHub Actions runs them on every push.
 
-## 🛣️ Next steps
+## 🛣️ Roadmap
 
-- English field names behind a versioned `/api/v2/`
-- Pagination and ordering by fare
-- Docker Compose for PostgreSQL, Redis and the Celery processes
-- Replace the mock nightly feed with a public schedule source
+- [x] Airports and flights with create / read / update / delete
+- [x] Flight search by route, date and fare
+- [x] JWT-protected writes and flight rules
+- [x] Nightly Celery beat job (mock feed)
+- [x] API tests and GitHub Actions
+- [ ] English field names behind a versioned `/api/v2/`
+- [ ] Pagination and ordering by fare
+- [ ] Docker Compose for PostgreSQL, Redis and the Celery processes
+- [ ] Replace the mock nightly feed with a public schedule source
